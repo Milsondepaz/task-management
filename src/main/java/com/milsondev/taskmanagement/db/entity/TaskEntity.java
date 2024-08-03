@@ -101,4 +101,15 @@ public class TaskEntity {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    @PrePersist
+    protected void onCreate(){
+        this.createdOn = Instant.now();
+        this.updatedOn = Instant.now();
+    }
+
+    @PreUpdate
+    protected void onUpdate(){
+        this.updatedOn = Instant.now();
+    }
 }

@@ -7,5 +7,7 @@
     <title>My To do List</title>
 </head>
 <section layout:fragment="content" style="min-height: 90vh; background-color: lightgray; margin-top:5%">
+    <div th:if="${alertMessage != null and alertMessage != ''}" class="panel-heading" th:replace="~{components/alert.html}"></div>
+   <div th:insert="~{/components/task-card}"></div>
 </section>
 </html>
