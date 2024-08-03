@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <title>My To do List</title>
+</head>
+<section layout:fragment="content" style="min-height: 90vh; background-color: lightgray; margin-top:5%">
+  <div th:if="${alertMessage != null and alertMessage != ''}" class="panel-heading" th:replace="~{components/alert.html}"></div>
+  <div id="taskGet-container" class="card container"
+       style="margin-top:1%; margin-bottom:1%; width: 50%; height:60%; border: none; padding-bottom:2%">
+    <form action="#" th:action="@{/add-or-update-task}" method="post" th:object="${taskDto}">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-26 mt-5">
+            <div class="card">
+              <article class="card-body">
+                <div class="form-group">
+                  <div class="row">
+
+                    <div class="col-md-12 mt-2">
+                      <label>Title</label>
+                      <input type="text" class="form-control" name="title" placeholder="Title"
+                             th:field="*{title}"
+                             th:classappend="${#fields.hasErrors('title')} ? 'is-invalid' : ''">
+                      <input type="hidden" name="id" th:value="${id}" th:field="*{id}"/>
+                      <div th:if="${#fields.hasErrors('title')}" th:errors="*{title}"
+                           class="invalid-feedback"></div>
+                    </div>
+
+                    <div class="col-md-12 mt-2">
+                      <label>Description</label>
+                      <textarea class="form-control" rows="4" name="description"
+                                placeholder="Description" th:field="*{description}"
+                                th:classappend="${#fields.hasErrors('description')} ? 'is-invalid' : ''"></textarea>
+                      <div th:if="${#fields.hasErrors('description')}" th:errors="*{description}"
+                           class="invalid-feedback"></div>
+                    </div>
+
+
+                    <div class="col-md-4 mb-3 mt-2">
+                      <label>Priority Level</label>
+                      <select class="form-control" name="priority" th:field="*{priority}">
+                        <option th:each="priority : ${priorities}"
+                                th:value="${priority}"
+                                th:text="${priority}"></option>
+                      </select>
+                    </div>
+
+                    <div class="col-md-4 mb-3 mt-2">
+                      <label>Status</label>
+                      <select class="form-control" name="status" th:field="*{status}">
+                        <option th:each="status : ${statusList}"
+                                th:value="${status}"
+                                th:text="${status}"></option>
+                      </select>
+                    </div>
+
+                    <div class="col-md-4 mb-3 mt-2">
+                      <label>Expira em</label>
+                      <input type="date" class="form-control" name="expireOn"
+                             th:field="*{expireOn}" placeholder="Data de Conclusão"
+                             id="expireDatePicker"
+                             th:classappend="${#fields.hasErrors('expireOn')} ? 'is-invalid' : ''">
+                      <script>
+                        var today = new Date().toISOString().split('T')[0];
+                        document.getElementById('expireDatePicker').min = today;
+
+                      </script>
+                      <div th:if="${#fields.hasErrors('expireOn')}" th:errors="*{expireOn}"
+                           class="invalid-feedback"></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="row mt-3" style="padding-top: 2%">
+            <div class="col mt-3">
+              <a class="btn btn-primary" href="/" style="width: 48%;">Cancel</a>
+            </div>
+            <div class="col mt-3 d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary" style="width: 48%;">Save</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+</html>

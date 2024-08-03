@@ -1,0 +1,210 @@
+.custom-fade-out {
+    animation: fadeOut 1s ease forwards;
+}
+
+@keyframes fadeOut {
+    from {
+            opacity: 1;
+    }
+        to {
+            opacity: 0;
+        }
+}
+
+.custom-alert {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 350px;
+    font-size: 14px;
+    z-index: 9999;
+}
+
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin-top:15px auto 0 auto; list-style-type:none; padding-top: 20px; }
+.social_footer_ul li { padding-left:20px; padding-top:30px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+/*======================================
+//--//-->   NAVBAR
+======================================*/
+.navbar-nav {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+color: white;
+}
+
+.nav-item {
+margin-left: 20px;
+color: red;
+}
+
+.nav-link {
+font-size: 18px;
+font-weight: 600;
+text-transform: uppercase;
+transition: all 0.3s ease-in-out;
+padding: 10px 15px;
+border-radius: 5px;
+color: white;
+
+}
+
+.nav-link:hover {
+background-color: #38B6FF;
+color: white;
+}
+
+
+
+/* Style for the container (you can adjust it as needed) */
+.button-container {
+    text-align: center;
+}
+
+/* Style for the custom button */
+.custom-button {
+    border: 2px solid white;
+    background-color: transparent; /* Transparent background */
+    color: white; /* White text color by default */
+    border-radius: 5%; /* Makes the button round */
+    padding: 5px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+.custom-button:hover {
+    background-color: white;
+    color: red;
+}
+
+
+/* segundo botado */
+.my-button-container {
+    text-align: end;
+}
+
+/* Style for the custom button */
+.my-custom-button {
+    border: 2px solid red;
+    background-color: transparent; /* Transparent background */
+    color: red; /* White text color by default */
+    border-radius: 5%; /* Makes the button round */
+    padding: 5px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+.my-custom-button:hover {
+    color: white; /* Change text color to red on hover */
+    background-color: red;
+}
+
+
+/* logo */
+.navbar-brand figure img {
+    transition: transform 0.3s; /* Adiciona uma transição suave */
+}
+
+.navbar-brand figure img:hover {
+    transform: scale(1.2); /* Amplia a imagem em 20% */
+}
+
+
+/* sublist */
+.sublist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sublist li {
+    margin: 5px 0;
+}
+
+.sublist a {
+    color: white;
+    text-decoration: none;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.sublist a:hover {
+    color: red; /* Ou a cor desejada ao passar o mouse */
+}
+
+
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #38B6FF
+  transition: background-color 0.3s;
+}
+
+.submenu {
+  position: relative;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0;
+  min-width: 150px;
+}
+
+.submenu:hover .sub-menu {
+  display: block;
+  background-color: #38B6FF;
+  border-radius: 5%;
+}
+
+.sub-menu li {
+  float: none;
+  width: 100%;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+}
+
+.sub-menu li a {
+  padding: 12px;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.sub-menu li a:hover {
+  background-color: black;
+  transition: background-color 0.3s;
+}
+

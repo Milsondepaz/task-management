@@ -10,14 +10,32 @@ public class TaskDto {
     private UUID id;
     @NotEmpty(message = "Title should not be null")
     private String title;
-    private Instant createdOn;
-    private Instant updatedOn;
+    private String createdOn;
+    private String updatedOn;
     @NotEmpty(message = "Expire Date cannot be empty, please inform!")
-    private Instant expireOn;
+    private String expireOn;
     private Priority priority;
     private Status status;
     @NotEmpty(message = "Description is mandatory")
     private String description;
+    private String statusClass;
+    private String priorityClass;
+
+    public String getStatusClass() {
+        return statusClass;
+    }
+
+    public void setStatusClass(String statusClass) {
+        this.statusClass = statusClass;
+    }
+
+    public String getPriorityClass() {
+        return priorityClass;
+    }
+
+    public void setPriorityClass(String priorityClass) {
+        this.priorityClass = priorityClass;
+    }
 
     public TaskDto(){
 
@@ -37,30 +55,6 @@ public class TaskDto {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public Instant getCreatedOn() {
-        return createdOn;
-    }
-
-    public void setCreatedOn(Instant createdOn) {
-        this.createdOn = createdOn;
-    }
-
-    public Instant getUpdatedOn() {
-        return updatedOn;
-    }
-
-    public void setUpdatedOn(Instant updatedOn) {
-        this.updatedOn = updatedOn;
-    }
-
-    public Instant getExpireOn() {
-        return expireOn;
-    }
-
-    public void setExpireOn(Instant expireOn) {
-        this.expireOn = expireOn;
     }
 
     public Priority getPriority() {
@@ -85,5 +79,29 @@ public class TaskDto {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getCreatedOn() {
+        return createdOn;
+    }
+
+    public void setCreatedOn(String createdOn) {
+        this.createdOn = createdOn;
+    }
+
+    public String getUpdatedOn() {
+        return updatedOn;
+    }
+
+    public void setUpdatedOn(String updatedOn) {
+        this.updatedOn = updatedOn;
+    }
+
+    public @NotEmpty(message = "Expire Date cannot be empty, please inform!") String getExpireOn() {
+        return expireOn;
+    }
+
+    public void setExpireOn(@NotEmpty(message = "Expire Date cannot be empty, please inform!") String expireOn) {
+        this.expireOn = expireOn;
     }
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head>
+    <title>Error</title>
+</head>
+<section layout:fragment="content" class="container-fluid" style="padding-top:15%; padding-bottom:15%; background-color:#DCDCDC; min-height: 100vh;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card my-3">
+                    <div class="row" style="text-align: center; padding-top:8%; padding-bottom:8%;" >
+                        <h1>OOPS!</h1>
+                        <h4  th:if= "${errorBadRequest != ''}" th:text="${errorBadRequest}"></h4>
+                        <h4  th:if= "${errorNotFound != ''}" th:text="${errorNotFound}"></h4>
+                        <h4  th:if= "${errorInternalServerError != ''}" th:text="${errorInternalServerError}"></h4>
+                        <div class="text-center">
+                            <img src="/img/error.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</html>
