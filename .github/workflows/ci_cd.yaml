@@ -30,26 +30,3 @@ jobs:
 
       - name: Run tests
         run: mvn test
-
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags')
-
-    steps:
-      - name: checkout source code
-        uses: actions/checkout@v2
-
-      - name: JDK configuration
-        uses: actions/setup-java@v2
-        with:
-          java-version: '19'
-          distribution: 'adopt'
-
-      - name: install Maven
-        run: sudo apt-get install -y maven
-
-      - name: build app
-        run: mvn package
-
-      - name: Run tests
-        run: mvn test
