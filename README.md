@@ -41,7 +41,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://my-app-1-0.onrender.com/" target="_blank">
+<a href="https://www.youtube.com/watch?v=Wfu9ONmESSI&list=PLN5n8DoUvztgzYKDbEGQOuuD5TqXfawKe" target="_blank">
     <img src="src/main/resources/static/img/task-management2.gif">
 </a>
 
