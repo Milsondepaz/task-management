@@ -42,7 +42,7 @@
 ## About The Project
 
 <a href="https://my-app-1-0.onrender.com/" target="_blank">
-    <img src="src/main/resources/static/img/task-management.gif">
+    <img src="src/main/resources/static/img/task-management2.gif">
 </a>
 
 It's an intuitive and easy-to-use Task Management web application where users can create, edit, view, and delete tasks. The tasks are organized based on simple business rules.
