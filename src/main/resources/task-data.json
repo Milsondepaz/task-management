@@ -1,0 +1,1017 @@
+[
+  {
+    "title": "Implement REST API endpoints",
+    "expireOn": "2023-05-30T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop all necessary REST endpoints for the task management module. Include CRUD operations, filtering capabilities, and status updates. Ensure proper error handling and validation. Document each endpoint with Swagger annotations."
+  },
+  {
+    "title": "Create technical documentation",
+    "expireOn": "2023-05-25T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Write comprehensive technical documentation covering system architecture, API specifications, and database schema. Include setup instructions for development environment. Add troubleshooting section for common issues. Maintain documentation in Markdown format in the project repository."
+  },
+  {
+    "title": "Perform code review",
+    "expireOn": "2023-05-20T18:00:00",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Conduct thorough code review of recent pull requests. Check for code quality, adherence to style guidelines, and potential bugs. Verify test coverage for new features. Provide constructive feedback to team members. Document all findings in the code review platform."
+  },
+  {
+    "title": "Set up CI/CD pipeline",
+    "expireOn": "2023-05-15T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure continuous integration and deployment pipeline using Jenkins/GitHub Actions. Include stages for building, testing, and deploying to staging environment. Implement quality gates for code coverage and static analysis. Set up automated deployment to production with manual approval step."
+  },
+  {
+    "title": "Write unit tests",
+    "expireOn": "2023-05-22T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop comprehensive unit tests for core business logic using JUnit/Mockito. Achieve at least 80% code coverage for critical components. Test edge cases and exception scenarios. Mock external dependencies properly. Integrate test execution into build process and generate coverage reports."
+  },
+  {
+    "title": "Design database schema",
+    "expireOn": "2023-05-12T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Create optimized database schema for the application using PostgreSQL. Define tables, relationships, indexes, and constraints. Consider performance requirements and scalability. Document schema decisions and migration strategy. Implement versioned migrations using Flyway or Liquibase."
+  },
+  {
+    "title": "Implement authentication service",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop secure authentication service using JWT tokens. Implement user registration, login, and password reset flows. Add role-based authorization for different endpoints. Include rate limiting and brute force protection. Store passwords securely with proper hashing and salting."
+  },
+  {
+    "title": "Create frontend components",
+    "expireOn": "2023-05-28T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Build reusable React components for the task management UI. Implement task list, task detail, and form components. Ensure responsive design and accessibility compliance. Use styled-components for CSS-in-JS styling. Integrate with state management library (Redux/Zustand)."
+  },
+  {
+    "title": "Optimize database queries",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Analyze and optimize slow database queries in the application. Add appropriate indexes for frequently queried columns. Rewrite complex queries for better performance. Implement caching for expensive operations. Monitor query performance after changes to verify improvements."
+  },
+  {
+    "title": "Implement logging system",
+    "expireOn": "2023-05-10T23:59:59",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Set up comprehensive logging system using Logback/SLF4J. Configure different log levels for development and production. Implement structured logging for better analysis. Set up log rotation and archival policies. Integrate with centralized log management system (ELK stack or similar)."
+  },
+  {
+    "title": "Develop notification service",
+    "expireOn": "2023-05-27T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Create service for sending email and in-app notifications. Implement templates for common notification types. Add queue system for handling notification delivery. Include tracking for notification opens/clicks. Support unsubscribe functionality for email notifications."
+  },
+  {
+    "title": "Set up monitoring dashboard",
+    "expireOn": "2023-05-19T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure Grafana dashboard for application monitoring. Include metrics for API response times, error rates, and system resources. Set up alerts for critical issues. Monitor database performance and cache hit ratios. Create separate dashboards for different environments (dev, staging, prod)."
+  },
+  {
+    "title": "Implement search functionality",
+    "expireOn": "2023-06-05T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Add advanced search capabilities to the application. Implement full-text search for task content using Elasticsearch. Support filtering by multiple criteria (status, priority, dates). Include autocomplete for search terms. Optimize search performance with proper indexing."
+  },
+  {
+    "title": "Conduct security audit",
+    "expireOn": "2023-05-24T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Perform comprehensive security audit of the application. Check for OWASP Top 10 vulnerabilities. Test for SQL injection, XSS, and CSRF vulnerabilities. Verify proper authentication and authorization controls. Review third-party library dependencies for known security issues."
+  },
+  {
+    "title": "Prepare deployment package",
+    "expireOn": "2023-06-02T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create deployment artifacts and configuration for all environments. Package application with proper versioning. Generate necessary configuration files for different environments. Document deployment procedures and rollback process. Verify package integrity before deployment."
+  },
+  {
+    "title": "Implement analytics tracking",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "Low",
+    "status": "Progress",
+    "description": "Add user behavior analytics to the application. Track key events like task creation, completion, and updates. Integrate with analytics platform (Google Analytics or Matomo). Ensure GDPR compliance with proper cookie consent. Anonymize sensitive data before sending to analytics."
+  },
+  {
+    "title": "Create admin dashboard",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop administrative interface for managing users and tasks. Include statistics and reporting features. Implement bulk operations for common admin tasks. Ensure proper access control for admin functions. Make interface intuitive with proper documentation of features."
+  },
+  {
+    "title": "Write integration tests",
+    "expireOn": "2023-06-01T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Create comprehensive integration tests covering main user flows. Test API endpoints with real database interactions. Verify integration between different system components. Include tests for error scenarios and edge cases. Automate test execution as part of CI pipeline."
+  },
+  {
+    "title": "Refactor legacy code",
+    "expireOn": "2023-06-07T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Improve structure and quality of legacy code modules. Break down large methods into smaller, focused ones. Remove duplicate code and improve naming. Apply design patterns where appropriate. Ensure backward compatibility during refactoring. Update tests to match new structure."
+  },
+  {
+    "title": "Prepare user training materials",
+    "expireOn": "2023-06-09T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create comprehensive user guides and training materials. Include step-by-step instructions with screenshots. Prepare video tutorials for key features. Develop FAQ section for common questions. Make materials available in both online and printable formats. Translate materials for non-English speaking users."
+  },
+  {
+    "title": "Implement REST API endpoints",
+    "expireOn": "2023-05-30T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop all necessary REST endpoints for the task management module. Include CRUD operations, filtering capabilities, and status updates. Ensure proper error handling and validation. Document each endpoint with Swagger annotations."
+  },
+  {
+    "title": "Create technical documentation",
+    "expireOn": "2023-05-25T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Write comprehensive technical documentation covering system architecture, API specifications, and database schema. Include setup instructions for development environment. Add troubleshooting section for common issues. Maintain documentation in Markdown format in the project repository."
+  },
+  {
+    "title": "Perform code review",
+    "expireOn": "2023-05-20T18:00:00",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Conduct thorough code review of recent pull requests. Check for code quality, adherence to style guidelines, and potential bugs. Verify test coverage for new features. Provide constructive feedback to team members. Document all findings in the code review platform."
+  },
+  {
+    "title": "Set up CI/CD pipeline",
+    "expireOn": "2023-05-15T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure continuous integration and deployment pipeline using Jenkins/GitHub Actions. Include stages for building, testing, and deploying to staging environment. Implement quality gates for code coverage and static analysis. Set up automated deployment to production with manual approval step."
+  },
+  {
+    "title": "Write unit tests",
+    "expireOn": "2023-05-22T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop comprehensive unit tests for core business logic using JUnit/Mockito. Achieve at least 80% code coverage for critical components. Test edge cases and exception scenarios. Mock external dependencies properly. Integrate test execution into build process and generate coverage reports."
+  },
+  {
+    "title": "Design database schema",
+    "expireOn": "2023-05-12T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Create optimized database schema for the application using PostgreSQL. Define tables, relationships, indexes, and constraints. Consider performance requirements and scalability. Document schema decisions and migration strategy. Implement versioned migrations using Flyway or Liquibase."
+  },
+  {
+    "title": "Implement authentication service",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop secure authentication service using JWT tokens. Implement user registration, login, and password reset flows. Add role-based authorization for different endpoints. Include rate limiting and brute force protection. Store passwords securely with proper hashing and salting."
+  },
+  {
+    "title": "Create frontend components",
+    "expireOn": "2023-05-28T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Build reusable React components for the task management UI. Implement task list, task detail, and form components. Ensure responsive design and accessibility compliance. Use styled-components for CSS-in-JS styling. Integrate with state management library (Redux/Zustand)."
+  },
+  {
+    "title": "Optimize database queries",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Analyze and optimize slow database queries in the application. Add appropriate indexes for frequently queried columns. Rewrite complex queries for better performance. Implement caching for expensive operations. Monitor query performance after changes to verify improvements."
+  },
+  {
+    "title": "Implement logging system",
+    "expireOn": "2023-05-10T23:59:59",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Set up comprehensive logging system using Logback/SLF4J. Configure different log levels for development and production. Implement structured logging for better analysis. Set up log rotation and archival policies. Integrate with centralized log management system (ELK stack or similar)."
+  },
+  {
+    "title": "Develop notification service",
+    "expireOn": "2023-05-27T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Create service for sending email and in-app notifications. Implement templates for common notification types. Add queue system for handling notification delivery. Include tracking for notification opens/clicks. Support unsubscribe functionality for email notifications."
+  },
+  {
+    "title": "Set up monitoring dashboard",
+    "expireOn": "2023-05-19T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure Grafana dashboard for application monitoring. Include metrics for API response times, error rates, and system resources. Set up alerts for critical issues. Monitor database performance and cache hit ratios. Create separate dashboards for different environments (dev, staging, prod)."
+  },
+  {
+    "title": "Implement search functionality",
+    "expireOn": "2023-06-05T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Add advanced search capabilities to the application. Implement full-text search for task content using Elasticsearch. Support filtering by multiple criteria (status, priority, dates). Include autocomplete for search terms. Optimize search performance with proper indexing."
+  },
+  {
+    "title": "Conduct security audit",
+    "expireOn": "2023-05-24T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Perform comprehensive security audit of the application. Check for OWASP Top 10 vulnerabilities. Test for SQL injection, XSS, and CSRF vulnerabilities. Verify proper authentication and authorization controls. Review third-party library dependencies for known security issues."
+  },
+  {
+    "title": "Prepare deployment package",
+    "expireOn": "2023-06-02T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create deployment artifacts and configuration for all environments. Package application with proper versioning. Generate necessary configuration files for different environments. Document deployment procedures and rollback process. Verify package integrity before deployment."
+  },
+  {
+    "title": "Implement analytics tracking",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "Low",
+    "status": "Progress",
+    "description": "Add user behavior analytics to the application. Track key events like task creation, completion, and updates. Integrate with analytics platform (Google Analytics or Matomo). Ensure GDPR compliance with proper cookie consent. Anonymize sensitive data before sending to analytics."
+  },
+  {
+    "title": "Create admin dashboard",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop administrative interface for managing users and tasks. Include statistics and reporting features. Implement bulk operations for common admin tasks. Ensure proper access control for admin functions. Make interface intuitive with proper documentation of features."
+  },
+  {
+    "title": "Write integration tests",
+    "expireOn": "2023-06-01T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Create comprehensive integration tests covering main user flows. Test API endpoints with real database interactions. Verify integration between different system components. Include tests for error scenarios and edge cases. Automate test execution as part of CI pipeline."
+  },
+  {
+    "title": "Refactor legacy code",
+    "expireOn": "2023-06-07T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Improve structure and quality of legacy code modules. Break down large methods into smaller, focused ones. Remove duplicate code and improve naming. Apply design patterns where appropriate. Ensure backward compatibility during refactoring. Update tests to match new structure."
+  },
+  {
+    "title": "Prepare user training materials",
+    "expireOn": "2023-06-09T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create comprehensive user guides and training materials. Include step-by-step instructions with screenshots. Prepare video tutorials for key features. Develop FAQ section for common questions. Make materials available in both online and printable formats. Translate materials for non-English speaking users."
+  },
+  {
+    "title": "Implement REST API endpoints",
+    "expireOn": "2023-05-30T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop all necessary REST endpoints for the task management module. Include CRUD operations, filtering capabilities, and status updates. Ensure proper error handling and validation. Document each endpoint with Swagger annotations."
+  },
+  {
+    "title": "Create technical documentation",
+    "expireOn": "2023-05-25T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Write comprehensive technical documentation covering system architecture, API specifications, and database schema. Include setup instructions for development environment. Add troubleshooting section for common issues. Maintain documentation in Markdown format in the project repository."
+  },
+  {
+    "title": "Perform code review",
+    "expireOn": "2023-05-20T18:00:00",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Conduct thorough code review of recent pull requests. Check for code quality, adherence to style guidelines, and potential bugs. Verify test coverage for new features. Provide constructive feedback to team members. Document all findings in the code review platform."
+  },
+  {
+    "title": "Set up CI/CD pipeline",
+    "expireOn": "2023-05-15T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure continuous integration and deployment pipeline using Jenkins/GitHub Actions. Include stages for building, testing, and deploying to staging environment. Implement quality gates for code coverage and static analysis. Set up automated deployment to production with manual approval step."
+  },
+  {
+    "title": "Write unit tests",
+    "expireOn": "2023-05-22T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop comprehensive unit tests for core business logic using JUnit/Mockito. Achieve at least 80% code coverage for critical components. Test edge cases and exception scenarios. Mock external dependencies properly. Integrate test execution into build process and generate coverage reports."
+  },
+  {
+    "title": "Design database schema",
+    "expireOn": "2023-05-12T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Create optimized database schema for the application using PostgreSQL. Define tables, relationships, indexes, and constraints. Consider performance requirements and scalability. Document schema decisions and migration strategy. Implement versioned migrations using Flyway or Liquibase."
+  },
+  {
+    "title": "Implement authentication service",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop secure authentication service using JWT tokens. Implement user registration, login, and password reset flows. Add role-based authorization for different endpoints. Include rate limiting and brute force protection. Store passwords securely with proper hashing and salting."
+  },
+  {
+    "title": "Create frontend components",
+    "expireOn": "2023-05-28T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Build reusable React components for the task management UI. Implement task list, task detail, and form components. Ensure responsive design and accessibility compliance. Use styled-components for CSS-in-JS styling. Integrate with state management library (Redux/Zustand)."
+  },
+  {
+    "title": "Optimize database queries",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Analyze and optimize slow database queries in the application. Add appropriate indexes for frequently queried columns. Rewrite complex queries for better performance. Implement caching for expensive operations. Monitor query performance after changes to verify improvements."
+  },
+  {
+    "title": "Implement logging system",
+    "expireOn": "2023-05-10T23:59:59",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Set up comprehensive logging system using Logback/SLF4J. Configure different log levels for development and production. Implement structured logging for better analysis. Set up log rotation and archival policies. Integrate with centralized log management system (ELK stack or similar)."
+  },
+  {
+    "title": "Develop notification service",
+    "expireOn": "2023-05-27T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Create service for sending email and in-app notifications. Implement templates for common notification types. Add queue system for handling notification delivery. Include tracking for notification opens/clicks. Support unsubscribe functionality for email notifications."
+  },
+  {
+    "title": "Set up monitoring dashboard",
+    "expireOn": "2023-05-19T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure Grafana dashboard for application monitoring. Include metrics for API response times, error rates, and system resources. Set up alerts for critical issues. Monitor database performance and cache hit ratios. Create separate dashboards for different environments (dev, staging, prod)."
+  },
+  {
+    "title": "Implement search functionality",
+    "expireOn": "2023-06-05T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Add advanced search capabilities to the application. Implement full-text search for task content using Elasticsearch. Support filtering by multiple criteria (status, priority, dates). Include autocomplete for search terms. Optimize search performance with proper indexing."
+  },
+  {
+    "title": "Conduct security audit",
+    "expireOn": "2023-05-24T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Perform comprehensive security audit of the application. Check for OWASP Top 10 vulnerabilities. Test for SQL injection, XSS, and CSRF vulnerabilities. Verify proper authentication and authorization controls. Review third-party library dependencies for known security issues."
+  },
+  {
+    "title": "Prepare deployment package",
+    "expireOn": "2023-06-02T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create deployment artifacts and configuration for all environments. Package application with proper versioning. Generate necessary configuration files for different environments. Document deployment procedures and rollback process. Verify package integrity before deployment."
+  },
+  {
+    "title": "Implement analytics tracking",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "Low",
+    "status": "Progress",
+    "description": "Add user behavior analytics to the application. Track key events like task creation, completion, and updates. Integrate with analytics platform (Google Analytics or Matomo). Ensure GDPR compliance with proper cookie consent. Anonymize sensitive data before sending to analytics."
+  },
+  {
+    "title": "Create admin dashboard",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop administrative interface for managing users and tasks. Include statistics and reporting features. Implement bulk operations for common admin tasks. Ensure proper access control for admin functions. Make interface intuitive with proper documentation of features."
+  },
+  {
+    "title": "Write integration tests",
+    "expireOn": "2023-06-01T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Create comprehensive integration tests covering main user flows. Test API endpoints with real database interactions. Verify integration between different system components. Include tests for error scenarios and edge cases. Automate test execution as part of CI pipeline."
+  },
+  {
+    "title": "Refactor legacy code",
+    "expireOn": "2023-06-07T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Improve structure and quality of legacy code modules. Break down large methods into smaller, focused ones. Remove duplicate code and improve naming. Apply design patterns where appropriate. Ensure backward compatibility during refactoring. Update tests to match new structure."
+  },
+  {
+    "title": "Prepare user training materials",
+    "expireOn": "2023-06-09T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create comprehensive user guides and training materials. Include step-by-step instructions with screenshots. Prepare video tutorials for key features. Develop FAQ section for common questions. Make materials available in both online and printable formats. Translate materials for non-English speaking users."
+  },
+  {
+    "title": "Implement REST API endpoints",
+    "expireOn": "2023-05-30T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop all necessary REST endpoints for the task management module. Include CRUD operations, filtering capabilities, and status updates. Ensure proper error handling and validation. Document each endpoint with Swagger annotations."
+  },
+  {
+    "title": "Create technical documentation",
+    "expireOn": "2023-05-25T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Write comprehensive technical documentation covering system architecture, API specifications, and database schema. Include setup instructions for development environment. Add troubleshooting section for common issues. Maintain documentation in Markdown format in the project repository."
+  },
+  {
+    "title": "Perform code review",
+    "expireOn": "2023-05-20T18:00:00",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Conduct thorough code review of recent pull requests. Check for code quality, adherence to style guidelines, and potential bugs. Verify test coverage for new features. Provide constructive feedback to team members. Document all findings in the code review platform."
+  },
+  {
+    "title": "Set up CI/CD pipeline",
+    "expireOn": "2023-05-15T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure continuous integration and deployment pipeline using Jenkins/GitHub Actions. Include stages for building, testing, and deploying to staging environment. Implement quality gates for code coverage and static analysis. Set up automated deployment to production with manual approval step."
+  },
+  {
+    "title": "Write unit tests",
+    "expireOn": "2023-05-22T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop comprehensive unit tests for core business logic using JUnit/Mockito. Achieve at least 80% code coverage for critical components. Test edge cases and exception scenarios. Mock external dependencies properly. Integrate test execution into build process and generate coverage reports."
+  },
+  {
+    "title": "Design database schema",
+    "expireOn": "2023-05-12T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Create optimized database schema for the application using PostgreSQL. Define tables, relationships, indexes, and constraints. Consider performance requirements and scalability. Document schema decisions and migration strategy. Implement versioned migrations using Flyway or Liquibase."
+  },
+  {
+    "title": "Implement authentication service",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop secure authentication service using JWT tokens. Implement user registration, login, and password reset flows. Add role-based authorization for different endpoints. Include rate limiting and brute force protection. Store passwords securely with proper hashing and salting."
+  },
+  {
+    "title": "Create frontend components",
+    "expireOn": "2023-05-28T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Build reusable React components for the task management UI. Implement task list, task detail, and form components. Ensure responsive design and accessibility compliance. Use styled-components for CSS-in-JS styling. Integrate with state management library (Redux/Zustand)."
+  },
+  {
+    "title": "Optimize database queries",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Analyze and optimize slow database queries in the application. Add appropriate indexes for frequently queried columns. Rewrite complex queries for better performance. Implement caching for expensive operations. Monitor query performance after changes to verify improvements."
+  },
+  {
+    "title": "Implement logging system",
+    "expireOn": "2023-05-10T23:59:59",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Set up comprehensive logging system using Logback/SLF4J. Configure different log levels for development and production. Implement structured logging for better analysis. Set up log rotation and archival policies. Integrate with centralized log management system (ELK stack or similar)."
+  },
+  {
+    "title": "Develop notification service",
+    "expireOn": "2023-05-27T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Create service for sending email and in-app notifications. Implement templates for common notification types. Add queue system for handling notification delivery. Include tracking for notification opens/clicks. Support unsubscribe functionality for email notifications."
+  },
+  {
+    "title": "Set up monitoring dashboard",
+    "expireOn": "2023-05-19T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure Grafana dashboard for application monitoring. Include metrics for API response times, error rates, and system resources. Set up alerts for critical issues. Monitor database performance and cache hit ratios. Create separate dashboards for different environments (dev, staging, prod)."
+  },
+  {
+    "title": "Implement search functionality",
+    "expireOn": "2023-06-05T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Add advanced search capabilities to the application. Implement full-text search for task content using Elasticsearch. Support filtering by multiple criteria (status, priority, dates). Include autocomplete for search terms. Optimize search performance with proper indexing."
+  },
+  {
+    "title": "Conduct security audit",
+    "expireOn": "2023-05-24T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Perform comprehensive security audit of the application. Check for OWASP Top 10 vulnerabilities. Test for SQL injection, XSS, and CSRF vulnerabilities. Verify proper authentication and authorization controls. Review third-party library dependencies for known security issues."
+  },
+  {
+    "title": "Prepare deployment package",
+    "expireOn": "2023-06-02T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create deployment artifacts and configuration for all environments. Package application with proper versioning. Generate necessary configuration files for different environments. Document deployment procedures and rollback process. Verify package integrity before deployment."
+  },
+  {
+    "title": "Implement analytics tracking",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "Low",
+    "status": "Progress",
+    "description": "Add user behavior analytics to the application. Track key events like task creation, completion, and updates. Integrate with analytics platform (Google Analytics or Matomo). Ensure GDPR compliance with proper cookie consent. Anonymize sensitive data before sending to analytics."
+  },
+  {
+    "title": "Create admin dashboard",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop administrative interface for managing users and tasks. Include statistics and reporting features. Implement bulk operations for common admin tasks. Ensure proper access control for admin functions. Make interface intuitive with proper documentation of features."
+  },
+  {
+    "title": "Write integration tests",
+    "expireOn": "2023-06-01T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Create comprehensive integration tests covering main user flows. Test API endpoints with real database interactions. Verify integration between different system components. Include tests for error scenarios and edge cases. Automate test execution as part of CI pipeline."
+  },
+  {
+    "title": "Refactor legacy code",
+    "expireOn": "2023-06-07T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Improve structure and quality of legacy code modules. Break down large methods into smaller, focused ones. Remove duplicate code and improve naming. Apply design patterns where appropriate. Ensure backward compatibility during refactoring. Update tests to match new structure."
+  },
+  {
+    "title": "Prepare user training materials",
+    "expireOn": "2023-06-09T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create comprehensive user guides and training materials. Include step-by-step instructions with screenshots. Prepare video tutorials for key features. Develop FAQ section for common questions. Make materials available in both online and printable formats. Translate materials for non-English speaking users."
+  },
+  {
+    "title": "Implement REST API endpoints",
+    "expireOn": "2023-05-30T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop all necessary REST endpoints for the task management module. Include CRUD operations, filtering capabilities, and status updates. Ensure proper error handling and validation. Document each endpoint with Swagger annotations."
+  },
+  {
+    "title": "Create technical documentation",
+    "expireOn": "2023-05-25T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Write comprehensive technical documentation covering system architecture, API specifications, and database schema. Include setup instructions for development environment. Add troubleshooting section for common issues. Maintain documentation in Markdown format in the project repository."
+  },
+  {
+    "title": "Perform code review",
+    "expireOn": "2023-05-20T18:00:00",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Conduct thorough code review of recent pull requests. Check for code quality, adherence to style guidelines, and potential bugs. Verify test coverage for new features. Provide constructive feedback to team members. Document all findings in the code review platform."
+  },
+  {
+    "title": "Set up CI/CD pipeline",
+    "expireOn": "2023-05-15T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure continuous integration and deployment pipeline using Jenkins/GitHub Actions. Include stages for building, testing, and deploying to staging environment. Implement quality gates for code coverage and static analysis. Set up automated deployment to production with manual approval step."
+  },
+  {
+    "title": "Write unit tests",
+    "expireOn": "2023-05-22T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop comprehensive unit tests for core business logic using JUnit/Mockito. Achieve at least 80% code coverage for critical components. Test edge cases and exception scenarios. Mock external dependencies properly. Integrate test execution into build process and generate coverage reports."
+  },
+  {
+    "title": "Design database schema",
+    "expireOn": "2023-05-12T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Create optimized database schema for the application using PostgreSQL. Define tables, relationships, indexes, and constraints. Consider performance requirements and scalability. Document schema decisions and migration strategy. Implement versioned migrations using Flyway or Liquibase."
+  },
+  {
+    "title": "Implement authentication service",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop secure authentication service using JWT tokens. Implement user registration, login, and password reset flows. Add role-based authorization for different endpoints. Include rate limiting and brute force protection. Store passwords securely with proper hashing and salting."
+  },
+  {
+    "title": "Create frontend components",
+    "expireOn": "2023-05-28T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Build reusable React components for the task management UI. Implement task list, task detail, and form components. Ensure responsive design and accessibility compliance. Use styled-components for CSS-in-JS styling. Integrate with state management library (Redux/Zustand)."
+  },
+  {
+    "title": "Optimize database queries",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Analyze and optimize slow database queries in the application. Add appropriate indexes for frequently queried columns. Rewrite complex queries for better performance. Implement caching for expensive operations. Monitor query performance after changes to verify improvements."
+  },
+  {
+    "title": "Implement logging system",
+    "expireOn": "2023-05-10T23:59:59",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Set up comprehensive logging system using Logback/SLF4J. Configure different log levels for development and production. Implement structured logging for better analysis. Set up log rotation and archival policies. Integrate with centralized log management system (ELK stack or similar)."
+  },
+  {
+    "title": "Develop notification service",
+    "expireOn": "2023-05-27T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Create service for sending email and in-app notifications. Implement templates for common notification types. Add queue system for handling notification delivery. Include tracking for notification opens/clicks. Support unsubscribe functionality for email notifications."
+  },
+  {
+    "title": "Set up monitoring dashboard",
+    "expireOn": "2023-05-19T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure Grafana dashboard for application monitoring. Include metrics for API response times, error rates, and system resources. Set up alerts for critical issues. Monitor database performance and cache hit ratios. Create separate dashboards for different environments (dev, staging, prod)."
+  },
+  {
+    "title": "Implement search functionality",
+    "expireOn": "2023-06-05T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Add advanced search capabilities to the application. Implement full-text search for task content using Elasticsearch. Support filtering by multiple criteria (status, priority, dates). Include autocomplete for search terms. Optimize search performance with proper indexing."
+  },
+  {
+    "title": "Conduct security audit",
+    "expireOn": "2023-05-24T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Perform comprehensive security audit of the application. Check for OWASP Top 10 vulnerabilities. Test for SQL injection, XSS, and CSRF vulnerabilities. Verify proper authentication and authorization controls. Review third-party library dependencies for known security issues."
+  },
+  {
+    "title": "Prepare deployment package",
+    "expireOn": "2023-06-02T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create deployment artifacts and configuration for all environments. Package application with proper versioning. Generate necessary configuration files for different environments. Document deployment procedures and rollback process. Verify package integrity before deployment."
+  },
+  {
+    "title": "Implement analytics tracking",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "Low",
+    "status": "Progress",
+    "description": "Add user behavior analytics to the application. Track key events like task creation, completion, and updates. Integrate with analytics platform (Google Analytics or Matomo). Ensure GDPR compliance with proper cookie consent. Anonymize sensitive data before sending to analytics."
+  },
+  {
+    "title": "Create admin dashboard",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop administrative interface for managing users and tasks. Include statistics and reporting features. Implement bulk operations for common admin tasks. Ensure proper access control for admin functions. Make interface intuitive with proper documentation of features."
+  },
+  {
+    "title": "Write integration tests",
+    "expireOn": "2023-06-01T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Create comprehensive integration tests covering main user flows. Test API endpoints with real database interactions. Verify integration between different system components. Include tests for error scenarios and edge cases. Automate test execution as part of CI pipeline."
+  },
+  {
+    "title": "Refactor legacy code",
+    "expireOn": "2023-06-07T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Improve structure and quality of legacy code modules. Break down large methods into smaller, focused ones. Remove duplicate code and improve naming. Apply design patterns where appropriate. Ensure backward compatibility during refactoring. Update tests to match new structure."
+  },
+  {
+    "title": "Prepare user training materials",
+    "expireOn": "2023-06-09T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create comprehensive user guides and training materials. Include step-by-step instructions with screenshots. Prepare video tutorials for key features. Develop FAQ section for common questions. Make materials available in both online and printable formats. Translate materials for non-English speaking users."
+  },
+  {
+    "title": "Implement REST API endpoints",
+    "expireOn": "2023-05-30T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop all necessary REST endpoints for the task management module. Include CRUD operations, filtering capabilities, and status updates. Ensure proper error handling and validation. Document each endpoint with Swagger annotations."
+  },
+  {
+    "title": "Create technical documentation",
+    "expireOn": "2023-05-25T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Write comprehensive technical documentation covering system architecture, API specifications, and database schema. Include setup instructions for development environment. Add troubleshooting section for common issues. Maintain documentation in Markdown format in the project repository."
+  },
+  {
+    "title": "Perform code review",
+    "expireOn": "2023-05-20T18:00:00",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Conduct thorough code review of recent pull requests. Check for code quality, adherence to style guidelines, and potential bugs. Verify test coverage for new features. Provide constructive feedback to team members. Document all findings in the code review platform."
+  },
+  {
+    "title": "Set up CI/CD pipeline",
+    "expireOn": "2023-05-15T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure continuous integration and deployment pipeline using Jenkins/GitHub Actions. Include stages for building, testing, and deploying to staging environment. Implement quality gates for code coverage and static analysis. Set up automated deployment to production with manual approval step."
+  },
+  {
+    "title": "Write unit tests",
+    "expireOn": "2023-05-22T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop comprehensive unit tests for core business logic using JUnit/Mockito. Achieve at least 80% code coverage for critical components. Test edge cases and exception scenarios. Mock external dependencies properly. Integrate test execution into build process and generate coverage reports."
+  },
+  {
+    "title": "Design database schema",
+    "expireOn": "2023-05-12T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Create optimized database schema for the application using PostgreSQL. Define tables, relationships, indexes, and constraints. Consider performance requirements and scalability. Document schema decisions and migration strategy. Implement versioned migrations using Flyway or Liquibase."
+  },
+  {
+    "title": "Implement authentication service",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop secure authentication service using JWT tokens. Implement user registration, login, and password reset flows. Add role-based authorization for different endpoints. Include rate limiting and brute force protection. Store passwords securely with proper hashing and salting."
+  },
+  {
+    "title": "Create frontend components",
+    "expireOn": "2023-05-28T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Build reusable React components for the task management UI. Implement task list, task detail, and form components. Ensure responsive design and accessibility compliance. Use styled-components for CSS-in-JS styling. Integrate with state management library (Redux/Zustand)."
+  },
+  {
+    "title": "Optimize database queries",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Analyze and optimize slow database queries in the application. Add appropriate indexes for frequently queried columns. Rewrite complex queries for better performance. Implement caching for expensive operations. Monitor query performance after changes to verify improvements."
+  },
+  {
+    "title": "Implement logging system",
+    "expireOn": "2023-05-10T23:59:59",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Set up comprehensive logging system using Logback/SLF4J. Configure different log levels for development and production. Implement structured logging for better analysis. Set up log rotation and archival policies. Integrate with centralized log management system (ELK stack or similar)."
+  },
+  {
+    "title": "Develop notification service",
+    "expireOn": "2023-05-27T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Create service for sending email and in-app notifications. Implement templates for common notification types. Add queue system for handling notification delivery. Include tracking for notification opens/clicks. Support unsubscribe functionality for email notifications."
+  },
+  {
+    "title": "Set up monitoring dashboard",
+    "expireOn": "2023-05-19T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure Grafana dashboard for application monitoring. Include metrics for API response times, error rates, and system resources. Set up alerts for critical issues. Monitor database performance and cache hit ratios. Create separate dashboards for different environments (dev, staging, prod)."
+  },
+  {
+    "title": "Implement search functionality",
+    "expireOn": "2023-06-05T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Add advanced search capabilities to the application. Implement full-text search for task content using Elasticsearch. Support filtering by multiple criteria (status, priority, dates). Include autocomplete for search terms. Optimize search performance with proper indexing."
+  },
+  {
+    "title": "Conduct security audit",
+    "expireOn": "2023-05-24T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Perform comprehensive security audit of the application. Check for OWASP Top 10 vulnerabilities. Test for SQL injection, XSS, and CSRF vulnerabilities. Verify proper authentication and authorization controls. Review third-party library dependencies for known security issues."
+  },
+  {
+    "title": "Prepare deployment package",
+    "expireOn": "2023-06-02T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create deployment artifacts and configuration for all environments. Package application with proper versioning. Generate necessary configuration files for different environments. Document deployment procedures and rollback process. Verify package integrity before deployment."
+  },
+  {
+    "title": "Implement analytics tracking",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "Low",
+    "status": "Progress",
+    "description": "Add user behavior analytics to the application. Track key events like task creation, completion, and updates. Integrate with analytics platform (Google Analytics or Matomo). Ensure GDPR compliance with proper cookie consent. Anonymize sensitive data before sending to analytics."
+  },
+  {
+    "title": "Create admin dashboard",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop administrative interface for managing users and tasks. Include statistics and reporting features. Implement bulk operations for common admin tasks. Ensure proper access control for admin functions. Make interface intuitive with proper documentation of features."
+  },
+  {
+    "title": "Write integration tests",
+    "expireOn": "2023-06-01T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Create comprehensive integration tests covering main user flows. Test API endpoints with real database interactions. Verify integration between different system components. Include tests for error scenarios and edge cases. Automate test execution as part of CI pipeline."
+  },
+  {
+    "title": "Refactor legacy code",
+    "expireOn": "2023-06-07T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Improve structure and quality of legacy code modules. Break down large methods into smaller, focused ones. Remove duplicate code and improve naming. Apply design patterns where appropriate. Ensure backward compatibility during refactoring. Update tests to match new structure."
+  },
+  {
+    "title": "Prepare user training materials",
+    "expireOn": "2023-06-09T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create comprehensive user guides and training materials. Include step-by-step instructions with screenshots. Prepare video tutorials for key features. Develop FAQ section for common questions. Make materials available in both online and printable formats. Translate materials for non-English speaking users."
+  },
+  {
+    "title": "Implement REST API endpoints",
+    "expireOn": "2023-05-30T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop all necessary REST endpoints for the task management module. Include CRUD operations, filtering capabilities, and status updates. Ensure proper error handling and validation. Document each endpoint with Swagger annotations."
+  },
+  {
+    "title": "Create technical documentation",
+    "expireOn": "2023-05-25T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Write comprehensive technical documentation covering system architecture, API specifications, and database schema. Include setup instructions for development environment. Add troubleshooting section for common issues. Maintain documentation in Markdown format in the project repository."
+  },
+  {
+    "title": "Perform code review",
+    "expireOn": "2023-05-20T18:00:00",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Conduct thorough code review of recent pull requests. Check for code quality, adherence to style guidelines, and potential bugs. Verify test coverage for new features. Provide constructive feedback to team members. Document all findings in the code review platform."
+  },
+  {
+    "title": "Set up CI/CD pipeline",
+    "expireOn": "2023-05-15T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure continuous integration and deployment pipeline using Jenkins/GitHub Actions. Include stages for building, testing, and deploying to staging environment. Implement quality gates for code coverage and static analysis. Set up automated deployment to production with manual approval step."
+  },
+  {
+    "title": "Write unit tests",
+    "expireOn": "2023-05-22T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop comprehensive unit tests for core business logic using JUnit/Mockito. Achieve at least 80% code coverage for critical components. Test edge cases and exception scenarios. Mock external dependencies properly. Integrate test execution into build process and generate coverage reports."
+  },
+  {
+    "title": "Design database schema",
+    "expireOn": "2023-05-12T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Create optimized database schema for the application using PostgreSQL. Define tables, relationships, indexes, and constraints. Consider performance requirements and scalability. Document schema decisions and migration strategy. Implement versioned migrations using Flyway or Liquibase."
+  },
+  {
+    "title": "Implement authentication service",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop secure authentication service using JWT tokens. Implement user registration, login, and password reset flows. Add role-based authorization for different endpoints. Include rate limiting and brute force protection. Store passwords securely with proper hashing and salting."
+  },
+  {
+    "title": "Create frontend components",
+    "expireOn": "2023-05-28T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Build reusable React components for the task management UI. Implement task list, task detail, and form components. Ensure responsive design and accessibility compliance. Use styled-components for CSS-in-JS styling. Integrate with state management library (Redux/Zustand)."
+  },
+  {
+    "title": "Optimize database queries",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Analyze and optimize slow database queries in the application. Add appropriate indexes for frequently queried columns. Rewrite complex queries for better performance. Implement caching for expensive operations. Monitor query performance after changes to verify improvements."
+  },
+  {
+    "title": "Implement logging system",
+    "expireOn": "2023-05-10T23:59:59",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Set up comprehensive logging system using Logback/SLF4J. Configure different log levels for development and production. Implement structured logging for better analysis. Set up log rotation and archival policies. Integrate with centralized log management system (ELK stack or similar)."
+  },
+  {
+    "title": "Develop notification service",
+    "expireOn": "2023-05-27T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Create service for sending email and in-app notifications. Implement templates for common notification types. Add queue system for handling notification delivery. Include tracking for notification opens/clicks. Support unsubscribe functionality for email notifications."
+  },
+  {
+    "title": "Set up monitoring dashboard",
+    "expireOn": "2023-05-19T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure Grafana dashboard for application monitoring. Include metrics for API response times, error rates, and system resources. Set up alerts for critical issues. Monitor database performance and cache hit ratios. Create separate dashboards for different environments (dev, staging, prod)."
+  },
+  {
+    "title": "Implement search functionality",
+    "expireOn": "2023-06-05T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Add advanced search capabilities to the application. Implement full-text search for task content using Elasticsearch. Support filtering by multiple criteria (status, priority, dates). Include autocomplete for search terms. Optimize search performance with proper indexing."
+  },
+  {
+    "title": "Conduct security audit",
+    "expireOn": "2023-05-24T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Perform comprehensive security audit of the application. Check for OWASP Top 10 vulnerabilities. Test for SQL injection, XSS, and CSRF vulnerabilities. Verify proper authentication and authorization controls. Review third-party library dependencies for known security issues."
+  },
+  {
+    "title": "Prepare deployment package",
+    "expireOn": "2023-06-02T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create deployment artifacts and configuration for all environments. Package application with proper versioning. Generate necessary configuration files for different environments. Document deployment procedures and rollback process. Verify package integrity before deployment."
+  },
+  {
+    "title": "Implement analytics tracking",
+    "expireOn": "2023-05-31T23:59:59",
+    "priority": "Low",
+    "status": "Progress",
+    "description": "Add user behavior analytics to the application. Track key events like task creation, completion, and updates. Integrate with analytics platform (Google Analytics or Matomo). Ensure GDPR compliance with proper cookie consent. Anonymize sensitive data before sending to analytics."
+  },
+  {
+    "title": "Create admin dashboard",
+    "expireOn": "2023-05-29T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop administrative interface for managing users and tasks. Include statistics and reporting features. Implement bulk operations for common admin tasks. Ensure proper access control for admin functions. Make interface intuitive with proper documentation of features."
+  },
+  {
+    "title": "Write integration tests",
+    "expireOn": "2023-06-01T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Create comprehensive integration tests covering main user flows. Test API endpoints with real database interactions. Verify integration between different system components. Include tests for error scenarios and edge cases. Automate test execution as part of CI pipeline."
+  },
+  {
+    "title": "Refactor legacy code",
+    "expireOn": "2023-06-07T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Improve structure and quality of legacy code modules. Break down large methods into smaller, focused ones. Remove duplicate code and improve naming. Apply design patterns where appropriate. Ensure backward compatibility during refactoring. Update tests to match new structure."
+  },
+  {
+    "title": "Prepare user training materials",
+    "expireOn": "2023-06-09T23:59:59",
+    "priority": "Low",
+    "status": "Ready",
+    "description": "Create comprehensive user guides and training materials. Include step-by-step instructions with screenshots. Prepare video tutorials for key features. Develop FAQ section for common questions. Make materials available in both online and printable formats. Translate materials for non-English speaking users."
+  },
+  {
+    "title": "Implement REST API endpoints",
+    "expireOn": "2023-05-30T23:59:59",
+    "priority": "High",
+    "status": "Progress",
+    "description": "Develop all necessary REST endpoints for the task management module. Include CRUD operations, filtering capabilities, and status updates. Ensure proper error handling and validation. Document each endpoint with Swagger annotations."
+  },
+  {
+    "title": "Create technical documentation",
+    "expireOn": "2023-05-25T23:59:59",
+    "priority": "Normal",
+    "status": "Ready",
+    "description": "Write comprehensive technical documentation covering system architecture, API specifications, and database schema. Include setup instructions for development environment. Add troubleshooting section for common issues. Maintain documentation in Markdown format in the project repository."
+  },
+  {
+    "title": "Perform code review",
+    "expireOn": "2023-05-20T18:00:00",
+    "priority": "Low",
+    "status": "Done",
+    "description": "Conduct thorough code review of recent pull requests. Check for code quality, adherence to style guidelines, and potential bugs. Verify test coverage for new features. Provide constructive feedback to team members. Document all findings in the code review platform."
+  },
+  {
+    "title": "Set up CI/CD pipeline",
+    "expireOn": "2023-05-15T23:59:59",
+    "priority": "High",
+    "status": "Done",
+    "description": "Configure continuous integration and deployment pipeline using Jenkins/GitHub Actions. Include stages for building, testing, and deploying to staging environment. Implement quality gates for code coverage and static analysis. Set up automated deployment to production with manual approval step."
+  },
+  {
+    "title": "Write unit tests",
+    "expireOn": "2023-05-22T23:59:59",
+    "priority": "Normal",
+    "status": "Progress",
+    "description": "Develop comprehensive unit tests for core business logic using JUnit/Mockito. Achieve at least 80% code coverage for critical components. Test edge cases and exception scenarios. Mock external dependencies properly. Integrate test execution into build process and generate coverage reports."
+  }
+]

@@ -96,6 +96,9 @@ public class TaskService {
     }
 
     public Page<TaskDto> getTaskListPaginated(int pageNo, int pageSize, String status) {
+
+        int qtd = taskRepository.findAll().size();
+
         List<TaskDto> taskDtoList;
         Page<TaskDto> page;
         if(status == null || status.isEmpty() || status.equals("all")){
@@ -120,5 +123,7 @@ public class TaskService {
     }
 
 
-
+    public void deleteAll() {
+        taskRepository.deleteAll();
+    }
 }
